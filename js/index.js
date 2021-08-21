@@ -441,7 +441,7 @@ function CreateHero(app) {
     //创建GLTF加载器对象
     //let characterControls = new ThirdPersonControls(app);
     var gltfLoader = new THREE.GLTFLoader(manager);
-    gltfLoader.load('./model/hero/scene.gltf', function (gltf) {
+    gltfLoader.load('./model/Hero/scene.gltf', function (gltf) {
         const root = gltf.scene;
 
         root.scale.x = 20;
