@@ -372,7 +372,7 @@ function CreatePizza(app) {
     //let characterControls = new ThirdPersonControls(app);
     
     var gltfLoader = new THREE.GLTFLoader(manager);
-    gltfLoader.load('model/Pizza/scene.gltf', function (gltf) {
+    gltfLoader.load('./model/Pizza/scene.gltf', function (gltf) {
         const root = gltf.scene;
         root.scale.x = 5;
         root.scale.y = 5;
@@ -407,7 +407,7 @@ function CreateTree(app) {
     //let characterControls = new ThirdPersonControls(app);
 
     var gltfLoader = new THREE.GLTFLoader(manager);
-    gltfLoader.load('model/Tree/scene.gltf', function (gltf) {
+    gltfLoader.load('./model/Tree/scene.gltf', function (gltf) {
         const root = gltf.scene;
         root.scale.x = 0.5;
         root.scale.y = 0.5;
@@ -441,7 +441,7 @@ function CreateHero(app) {
     //创建GLTF加载器对象
     //let characterControls = new ThirdPersonControls(app);
     var gltfLoader = new THREE.GLTFLoader(manager);
-    gltfLoader.load('model/hero/scene.gltf', function (gltf) {
+    gltfLoader.load('./model/hero/scene.gltf', function (gltf) {
         const root = gltf.scene;
 
         root.scale.x = 20;
@@ -613,7 +613,7 @@ function CreateLong(app, position = 300, noOfLong = 0, name = 'Monster01') {
     //创建GLTF加载器对象
     //let characterControls = new ThirdPersonControls(app);
     var gltfLoader = new THREE.GLTFLoader(manager);
-    gltfLoader.load('model/long/scene.gltf', function (gltf) {
+    gltfLoader.load('./model/long/scene.gltf', function (gltf) {
         const root = gltf.scene;
         //root.scale.multiplyScalar(15);
         root.scale.x = 40;
