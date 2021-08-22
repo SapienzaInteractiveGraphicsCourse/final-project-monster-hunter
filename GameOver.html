@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url(" ./images/background.png ");
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/result.css" />
+</head>
+
+<body>
+
+    <script>
+        function Home() {
+            window.location.href = "./index.html";
+        }
+        function Restart() {
+            window.location.href = "./Game.html";
+        }
+        function grade() {
+            var name = localStorage.getItem("firstname");
+            document.getElementById('info').innerHTML = "Your Grade: " +  name;
+        }
+        setInterval(function () {
+            var e = document.createEvent("MouseEvents");
+            e.initEvent("click", true, true);
+            document.getElementById("aa").dispatchEvent(e);
+        }, 1);
+    </script>
+
+
+
+    <div id="login">
+        <h1>Game Over!</h1>
+        <h3 id="info">  Your Grade: 0  </h3>
+        <button class="home" onclick="Home()">Home</button>
+        <button class="res" onclick="Restart()">Restart</button>
+        <button id ="aa" class="grade" onclick="grade()" style="VISIBILITY: hidden">Grade</button>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
