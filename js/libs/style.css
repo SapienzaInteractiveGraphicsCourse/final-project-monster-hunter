@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    src: url('../assets/font/GloriaHallelujah.woff2') format('woff2'),
+        url('../assets/font/GloriaHallelujah.woff') format('woff'),
+        url('../assets/font/GloriaHallelujah.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html, body {
+	position: relative;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+body.fade{
+  background-image: url(../assets/menu/covervespa.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  background-attachment: fixed;
+
+}
+.game {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: 0.7s opacity;
+}
+.game.fade {
+	display: hidden;
+	opacity: 0;
+	transition: none;
+}
+.score {
+	display: table;
+    margin: 0 auto;
+	height: 100px;
+	width: 200px;
+    background: url(../assets/score_board.png) no-repeat center center;
+	background-size: contain;
+	text-align: center;
+}
+.score.fade {
+	display: none;
+}
+
+.score_container {
+  position: absolute;
+  top: 79%;
+  width:100%
+}
+
+.value {
+	font-family: 'Gloria Hallelujah';
+	margin-top: 40px;
+}
+.start {
+	position: absolute;
+	height: 10%;
+	top: 35%;
+	left: 59%;
+}
+
+.gameOver {
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0);
+
+}
+.gameOver.summary {
+
+	visibility: visible;
+	background-color: rgba(0,0,0,0.8);
+	transition: 2.7s background;
+}
+
+.final_score {
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.playAgain {
+	box-shadow: 0px 0px 0px 0px #8a2a21;
+	background-color:#c62d1f;
+	border-radius:16px;
+	border:2px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Gloria Hallelujah';
+	font-size:22px;
+	font-weight:bold;
+	padding:19px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.playAgain:hover {
+	background-color:#f24437;
+}
+        
