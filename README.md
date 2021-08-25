@@ -1,4 +1,4 @@
-# final-project-monster-hunter
+# Monster Hunter
 final-project-monster-hunter created by GitHub Classroom
 
 This game is the final project of Interactive Graphics course at Sapienza University of Rome.
