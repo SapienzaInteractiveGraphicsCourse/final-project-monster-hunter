@@ -6,7 +6,7 @@ const K_MOVE_LEFT = 'A'.charCodeAt(0);
 const K_MOVE_RIGHT = 'D'.charCodeAt(0);
 
 
-
+// Long - Monster
 class App {
     constructor() {
 
