@@ -2,7 +2,7 @@
 
 This game is the Final Project of Interactive Graphics course at Sapienza University of Rome.
 
-**DEMO**: [Check here to play](https://sapienzainteractivegraphicscourse.github.io/final-project-monster-hunter/)
+**DEMO**: [Play](https://sapienzainteractivegraphicscourse.github.io/final-project-monster-hunter/)
 
 ## Getting Started
 To run:
