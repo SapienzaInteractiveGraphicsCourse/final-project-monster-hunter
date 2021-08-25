@@ -1,7 +1,6 @@
 # Monster Hunter
-final-project-monster-hunter created by GitHub Classroom
 
-This game is the final project of Interactive Graphics course at Sapienza University of Rome.
+This game is the Final Project of Interactive Graphics course at Sapienza University of Rome.
 
 Live **DEMO**: [Check here to play](https://sapienzainteractivegraphicscourse.github.io/final-project-monster-hunter/)
 
@@ -19,7 +18,7 @@ Github pages
 
 ## Authors
 
-* **Kai Peng** **Chengcheng Sheng** **JieXin Tian**
+* **Kai Peng**            * **Chengcheng Sheng**          * **JieXin Tian**
 
 ## License
 
