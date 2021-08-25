@@ -2,7 +2,7 @@
 
 This game is the Final Project of Interactive Graphics course at Sapienza University of Rome.
 
-Live **DEMO**: [Check here to play](https://sapienzainteractivegraphicscourse.github.io/final-project-monster-hunter/)
+**DEMO**: [Check here to play](https://sapienzainteractivegraphicscourse.github.io/final-project-monster-hunter/)
 
 ## Getting Started
 To run:
@@ -18,7 +18,9 @@ Github pages
 
 ## Authors
 
-* **Kai Peng**            * **Chengcheng Sheng**          * **JieXin Tian**
+* **Kai Peng**            
+* **Chengcheng Sheng**          
+* **JieXin Tian**
 
 ## License
 
