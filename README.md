@@ -4,7 +4,7 @@ This game is the Final Project of Interactive Graphics course at Sapienza Univer
 
 **DEMO**: [Play](https://sapienzainteractivegraphicscourse.github.io/final-project-monster-hunter/)
 
-## Game Controlsls:
+## Game Controls:
 
 The lowercase w, a, s, d controls the hero to move forward, left, right, and backward respectively. 
 The lowercase [ j ] and [ k ] are the two attack skills of the hero, press them to destroy the monster. 
