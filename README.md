@@ -6,7 +6,7 @@ This game is the Final Project of Interactive Graphics course at Sapienza Univer
 
 ## Game Controls:
 
-The lowercase w, a, s, d controls the hero to move forward, left, right, and backward respectively. 
+The lowercase [w, a, s, d] controls the hero to move forward, left, right, and backward respectively. 
 The lowercase [ j ] and [ k ] are the two attack skills of the hero, press them to destroy the monster. 
 
 
@@ -15,6 +15,7 @@ To run:
   Common browser (Chrome, Firefox, Edge...). 
 
 To develop:
+- WebGL
 - Three js
 - Tween js
 
@@ -27,8 +28,3 @@ Github pages
 * **Kai Peng**            
 * **Chengcheng Sheng**          
 * **JieXin Tian**
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
